@@ -10,7 +10,6 @@ import {
 import { SparklesIcon } from "@heroicons/react/24/solid";
 import Image from "next/image";
 import { TypeAnimation } from "react-type-animation";
-import StarsCanvas from "../main/StarBackground";
 
 const HeroContent = () => {
   return (
@@ -20,7 +19,6 @@ const HeroContent = () => {
       animate="visible"
       className="flex flex-row items-center justify-center px-20 mt-40 w-full z-[20]"
     >
-      <StarsCanvas/>
       <div className="h-full translate-y-[-150px] w-full flex flex-col gap-5 justify-center m-auto text-start">
         <motion.div
           variants={slideInFromTop}

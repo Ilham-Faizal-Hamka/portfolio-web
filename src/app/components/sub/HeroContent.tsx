@@ -21,9 +21,9 @@ const HeroContent = () => {
       <div className="h-full translate-y-[-150px] w-full flex flex-col gap-5 justify-center m-auto text-start">
         <motion.div
           variants={slideInFromTop}
-          className="Welcome-box py-[8px] px-[7px] border border-[#7042f88b] opacity-[0.9]"
+          className="Welcome-box py-[8px] px-[7px] border border-[#03e9f4] opacity-[0.9]"
         >
-          <SparklesIcon className="text-[#b49bff] mx-[10px] h-5 w-5" />
+          <SparklesIcon className="text-[#03e9f4] mx-[10px] h-5 w-5" />
           <h1 className="Welcome-text mr-[10px] text-[13px]">
             Fullstack Developer
           </h1>
@@ -36,7 +36,7 @@ const HeroContent = () => {
           <span>
             Hello! I&apos;m
             <br />
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-teal-500 to-sky-400">
               {" "}
               <TypeAnimation
               sequence={[
@@ -73,7 +73,7 @@ const HeroContent = () => {
         </motion.p>
         <motion.a
           variants={slideInFromLeft(1)}
-          className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
+          className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px] hover:shadow-cyan-500/75"
         >
           Learn More!
         </motion.a>
@@ -88,6 +88,7 @@ const HeroContent = () => {
           alt="work icons"
           height={800}
           width={800}
+          className="translate-y-[-100px]"
         />
       </motion.div>
     </motion.div>

@@ -249,6 +249,115 @@ export const Other_skill = [
   },
 ];
 
+export const Experiences = [
+  {
+    id: 1,
+    position: "Full Stack Engineer",
+    company: "Refactory",
+    time: "Oct 2024 - Jan 2025 · 4 mos",
+    place: "Yogyakarta, Indonesia · On-site",
+    description: "Worked as a Fullstack Developer, building and maintaining applications using Flutter for mobile development, Next.js and React for front-end, and Golang and CodeIgniter for backend. Collaborated in Agile teams, performed code reviews, and optimized system performance for better scalability.",
+    skills: [
+      "Full-Stack Development",
+      "Software Development Life Cycle (SDLC)",
+      "Debugging",
+      "Front-End Development",
+      "Backend",
+      "Unit Test",
+      "Software Development"
+    ]
+  },
+  {
+    id: 2,
+    position: "Bangkit 2023 Student | Cloud Computing Learning Path",
+    company: "Bangkit Academy led by Google, Tokopedia, Gojek, & Traveloka",
+    time: "Feb 2023 - Jul 2023 · 6 mos",
+    place: "Yogyakarta, Indonesia · Remote",
+    description: "Studied Google Cloud computing concepts, built scalable applications, and deployed solutions on GCP. Gained hands-on experience in backend development, networking, and cloud infrastructure. Led a team in the final capstone project and placed in the top 60 of a nationwide hackathon.",
+    skills: [
+      "Servers",
+      "JavaScript",
+      "Google Cloud Platform (GCP)",
+      "JavaScript Testing",
+      "Hapi.js",
+      "Node.js",
+      "System Administration",
+      "Backend",
+      "Leadership"
+    ]
+  },
+  {
+    id: 3,
+    position: "Web Developer",
+    company: "Yayasan Bimbingan Islam",
+    time: "Feb 2023 - Mar 2023 · 2 mos",
+    place: "Yogyakarta, Indonesia · Remote",
+    description: "Developed a MOOC (Massive Open Online Course) platform to enhance online learning experiences. Designed and implemented an interactive website using Bootstrap, CSS, and JavaScript, ensuring responsiveness and usability for students and educators.",
+    skills: ["Web Framework"]
+  },
+  {
+    id: 4,
+    position: "Hacker",
+    company: "Google Developer Student Clubs UGM",
+    time: "Nov 2021 - Jul 2022 · 9 mos",
+    place: "Yogyakarta, Indonesia",
+    description: "Contributed to database architecture improvements and backend optimizations for PostgreSQL projects. Developed efficient queries, enhanced API performance, and collaborated with fellow developers in designing scalable database structures.",
+    skills: ["PostgreSQL"]
+  },
+  {
+    id: 5,
+    position: "Head of Digital Media",
+    company: "Majeedr",
+    time: "Jan 2021 - Jun 2022 · 1 yr 6 mos",
+    place: "Yogyakarta, Indonesia",
+    description: "Led a social media team managing content strategies for a platform with 60K+ followers. Designed and executed digital marketing campaigns, improved engagement rates, and analyzed social media insights to enhance reach and audience interaction.",
+    skills: [
+      "Social Media",
+      "Team Leadership",
+      "Social Media Marketing",
+      "Social Media Optimization (SMO)",
+      "Team Management",
+      "Digital Media",
+      "Leadership"
+    ]
+  },
+  {
+    id: 6,
+    position: "Graphic Designer",
+    company: "KAMI SIAP",
+    time: "Dec 2019 - Jan 2022 · 2 yrs 2 mos",
+    place: "Yogyakarta, Indonesia",
+    description: "Created compelling visual content for social media and marketing campaigns, enhancing brand identity. Designed infographics, banners, and promotional materials, working closely with the content team to ensure consistency and engagement.",
+    skills: ["Social Media", "Teamwork", "Graphic Design"]
+  },
+  {
+    id: 7,
+    position: "Tutor of Single Variable Calculus",
+    company: "Universitas Gadjah Mada (UGM)",
+    time: "Aug 2021 - Dec 2021 · 5 mos",
+    place: "Yogyakarta, Indonesia",
+    description: "Provided academic assistance to undergraduate students in calculus topics such as limits, continuity, differentiation, and integration. Designed problem sets, conducted interactive sessions, and helped students improve their understanding and problem-solving skills.",
+    skills: ["Calculus", "Mathematics"]
+  },
+  {
+    id: 8,
+    position: "Student",
+    company: "YLabs Indonesia",
+    time: "Aug 2021 - Nov 2021 · 4 mos",
+    place: "Yogyakarta, Indonesia",
+    description: "Participated in an intensive startup bootcamp focused on business development and entrepreneurship. Collaborated with a team to pitch a business plan to the Ministry of Youth and Sports, gaining insights into market strategies, financial planning, and product innovation.",
+    skills: [
+      "Team Leadership",
+      "Business Strategy",
+      "Team Management",
+      "Teamwork",
+      "Business Planning"
+    ]
+  }
+]
+
+
+
 
 
 

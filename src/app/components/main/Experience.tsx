@@ -44,7 +44,7 @@ const Experience = () => {
   })
 
   return (
-    <div className='my-64'>
+    <div className='mt-14'>
       <h2 className='text-8xl font-bold text-center mb-40 w-full text-white'>
         Experience
       </h2>
@@ -53,7 +53,7 @@ const Experience = () => {
           <motion.div 
           style={{scaleY: scrollYProgress}} 
           transition={{duration:0.5, type:'spring'}}
-          className='absolute left-9 top-0 w-[4px] h-[93%] bg-white origin-top'/>
+          className='absolute left-9 top-0 w-[4px] h-[90%] bg-white origin-top'/>
         {Experiences.map((experience) => (<>
           <ul className='w-full flex flex-col items-start justify-between ml-4 mb-20'>
           <Detail key={experience.id} detail={{

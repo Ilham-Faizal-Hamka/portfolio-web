@@ -251,6 +251,23 @@ export const Other_skill = [
 
 export const Experiences = [
   {
+    id: 0,
+    position: "Freelance Full Stack Developer",
+    company: "Self-Employed",
+    time: "Jan 2025 - Present",
+    place: "Remote",
+    description: "Worked on various freelance projects, focusing on developing scalable and high-performance web applications. Utilized Next.js for front-end development and Golang for backend services. Engaged in end-to-end development, from system architecture design to deployment, ensuring robust and efficient solutions. Collaborated with clients to gather requirements, provide technical insights, and deliver tailored software solutions. Implemented best practices in code optimization, security, and performance enhancement.",
+    skills: [
+      "Next.js",
+      "Golang",
+      "Software Architecture",
+      "Cloud Deployment",
+      "Database Optimization",
+      "Backend Performance Tuning",
+      "API Development"
+    ]
+  },
+  {
     id: 1,
     position: "Full Stack Engineer",
     company: "Refactory",
@@ -296,15 +313,6 @@ export const Experiences = [
     skills: ["Web Framework"]
   },
   {
-    id: 4,
-    position: "Hacker",
-    company: "Google Developer Student Clubs UGM",
-    time: "Nov 2021 - Jul 2022 · 9 mos",
-    place: "Yogyakarta, Indonesia",
-    description: "Contributed to database architecture improvements and backend optimizations for PostgreSQL projects. Developed efficient queries, enhanced API performance, and collaborated with fellow developers in designing scalable database structures.",
-    skills: ["PostgreSQL"]
-  },
-  {
     id: 5,
     position: "Head of Digital Media",
     company: "Majeedr",
@@ -323,41 +331,11 @@ export const Experiences = [
   },
   {
     id: 6,
-    position: "Graphic Designer",
-    company: "KAMI SIAP",
-    time: "Dec 2019 - Jan 2022 · 2 yrs 2 mos",
-    place: "Yogyakarta, Indonesia",
-    description: "Created compelling visual content for social media and marketing campaigns, enhancing brand identity. Designed infographics, banners, and promotional materials, working closely with the content team to ensure consistency and engagement.",
-    skills: ["Social Media", "Teamwork", "Graphic Design"]
-  },
-  {
-    id: 7,
     position: "Tutor of Single Variable Calculus",
     company: "Universitas Gadjah Mada (UGM)",
     time: "Aug 2021 - Dec 2021 · 5 mos",
     place: "Yogyakarta, Indonesia",
     description: "Provided academic assistance to undergraduate students in calculus topics such as limits, continuity, differentiation, and integration. Designed problem sets, conducted interactive sessions, and helped students improve their understanding and problem-solving skills.",
     skills: ["Calculus", "Mathematics"]
-  },
-  {
-    id: 8,
-    position: "Student",
-    company: "YLabs Indonesia",
-    time: "Aug 2021 - Nov 2021 · 4 mos",
-    place: "Yogyakarta, Indonesia",
-    description: "Participated in an intensive startup bootcamp focused on business development and entrepreneurship. Collaborated with a team to pitch a business plan to the Ministry of Youth and Sports, gaining insights into market strategies, financial planning, and product innovation.",
-    skills: [
-      "Team Leadership",
-      "Business Strategy",
-      "Team Management",
-      "Teamwork",
-      "Business Planning"
-    ]
   }
-]
-
-
-
-
-
-
+];

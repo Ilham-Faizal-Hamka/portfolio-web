@@ -4,16 +4,9 @@ import Experience from './components/main/Experience'
 
 export default function Home() {
   return (
-   <main className='h-full w-full'>
-    <div className='flex flex-col h-[850px] gap-20'>
+   <main className='h-full w-full gap-20 flex flex-col'>
       <Hero />
       <Experience />
-      <div className='mt-[1000px]'> 
-        sdada
-      </div>
-    </div>
-      
-
    </main>
   )
 }

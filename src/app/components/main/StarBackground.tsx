@@ -40,7 +40,6 @@ const StarBackground = (props: any) => {
 };
 
 const StarsCanvas = () => (
-  <div className="static">
     <div className="w-full h-screen absolute z-[20] top-0">
         <Canvas camera={{position: [0, 0, 1]}}>
         <Suspense fallback={null}>
@@ -48,7 +47,6 @@ const StarsCanvas = () => (
         </Suspense>
         </Canvas>
     </div>
-  </div>
 )
 
 export default StarsCanvas;

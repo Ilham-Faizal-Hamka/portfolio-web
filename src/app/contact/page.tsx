@@ -30,12 +30,17 @@ const Contact = () => {
       return;
     }
 
+    const serviceId = process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID ?? "";
+    const templateId = process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID ?? "";
+    const publicKey = process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY ?? "";
+
+
     try {
       await emailjs.sendForm(
-        'service_portfolio_1', // Ganti dengan Service ID dari EmailJS
-        'template_tszh4vm', // Ganti dengan Template ID dari EmailJS
-        formRef.current,
-        'cbkuolXWrZ8XUEKBh' // Ganti dengan Public Key dari EmailJS
+        serviceId, 
+        templateId, 
+        formRef.current, 
+        publicKey
       );
       setSuccess(true);
       formRef.current.reset();
@@ -81,7 +86,7 @@ const Contact = () => {
                   </SelectGroup>
                 </SelectContent>
               </Select>
-              <Textarea name='message' className='h-[200px]' placeholder='Type your message here...' required />
+              <Textarea name='message' className='h-[200px] text-white' placeholder='Type your message here...' required />
               <Button type='submit' size='md' className='max-w-40' disabled={loading}>
                 {loading ? 'Sending...' : 'Send Message'}
               </Button>

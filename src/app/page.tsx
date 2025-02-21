@@ -4,6 +4,7 @@ import Experience from "./components/main/Experience";
 import { GoogleGeminiEffect } from "@/components/ui/google-gemini-effect";
 import { GoogleGeminiEffectDemo } from "./components/main/Connect";
 import { LampDemo } from "@/components/ui/lamp";
+import Grid from "./components/main/Grid";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <Hero />
       <Experience />
       <GoogleGeminiEffectDemo />
+      <Grid />
       <LampDemo />
     </main>
   );

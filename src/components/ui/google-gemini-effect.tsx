@@ -20,7 +20,7 @@ export const GoogleGeminiEffect = ({
   className?: string;
 }) => {
   return (
-    <div className={cn("sticky top-80", className)}>
+    <div className={cn("sticky top-60", className)}>
       <p className="text-[2.5rem] md:text-7xl font-normal pb-4 text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-100 to-neutral-300 xl:max-w-7xl mx-auto">
         {title || `Connecting Ideas, Crafting Scalable Solutions`}
       </p>
@@ -28,8 +28,8 @@ export const GoogleGeminiEffect = ({
         {description ||
           `By combining innovation with solid engineering, I turn ideas into scalable, reliable solutions that empower growth and performance.`}
       </p>
-      <div className="w-full h-[890px] -top-60 md:-top-40 flex items-center justify-center bg-red-transparent absolute">
-        <button className="font-bold bg-white rounded-lg md:px-4 md:py-2 px-2 py-1 md:mt-24 mt-8 z-30 md:text-base text-black text-xs translate-y-[108px] w-fit mx-auto ">
+      <div className="w-full h-[400px] -top-60 md:-top-40 flex items-center justify-center bg-red-transparent">
+        <button className="font-bold bg-white rounded-lg md:px-4 md:py-2 px-2 py-1 md:mt-24 mt-8 z-30 md:text-base text-black text-xs translate-y-[-40px] w-fit mx-auto ">
           Get Started
         </button>
       </div>

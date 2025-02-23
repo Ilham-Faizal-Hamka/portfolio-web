@@ -1,0 +1,22 @@
+steps:
+  # 1️⃣ Build Docker image
+  - name: "gcr.io/cloud-builders/docker"
+    args: ["build", "-t", "gcr.io/$portfolio-web-2025/portfolio-web", "."]
+
+  # 2️⃣ Push image ke Google Container Registry (GCR)
+  - name: "gcr.io/cloud-builders/docker"
+    args: ["push", "gcr.io/$portfolio-web-2025/portfolio-web"]
+
+  # 3️⃣ Deploy ke Cloud Run
+  - name: "gcr.io/cloud-builders/gcloud"
+    args:
+      - "run"
+      - "deploy"
+      - "portfolio-web"
+      - "--image=gcr.io/$portfolio-web-2025/portfolio-web"
+      - "--platform=managed"
+      - "--region=us-central1"
+      - "--allow-unauthenticated"
+
+images:
+  - "gcr.io/$portfolio-web-2025/portfolio-web"

@@ -25,29 +25,36 @@ const Navbar = () => {
         </a>
 
         <div className="w-[500px] h-full flex flex-row items-center justify-between md:mr-20">
-          <div className="flex items-center justify-between w-full h-auto border border-[#42bef861] bg-[#ffffff14] mr-[15px] px-[20px] py-[10px] rounded-full text-gray-200">
-            <Link href="/" className="cursor-pointer">
+          <div className="flex items-center justify-between w-full h-auto border border-[#42bef861] bg-[#ffffff14] mr-[15px] px-[20px] py-[10px] rounded-full text-gray-200 ">
+            <Link href="/" className="cursor-pointer hover:text-[#9ffeff]">
               About
             </Link>
-            <Link href="/articles" className="cursor-pointer">
+            <Link
+              href="/articles"
+              className="cursor-pointer hover:text-[#9ffeff]"
+            >
               Articles
             </Link>
-            <Link href="/contact" className="cursor-pointer">
+            <Link
+              href="/contact"
+              className="cursor-pointer hover:text-[#9ffeff]"
+            >
               Contact
             </Link>
           </div>
         </div>
 
         <div className="flex flex-row gap-5">
-          {Socials.map((social) => ( <Link href={social.link} key={social.name} target="_blank">
-            <Image
-              src={social.src}
-              alt={social.name}
-              key={social.name}
-              width={48}
-              height={24}
+          {Socials.map((social) => (
+            <Link href={social.link} key={social.name} target="_blank">
+              <Image
+                src={social.src}
+                alt={social.name}
+                key={social.name}
+                width={48}
+                height={24}
               />
-              </Link>
+            </Link>
           ))}
         </div>
       </div>

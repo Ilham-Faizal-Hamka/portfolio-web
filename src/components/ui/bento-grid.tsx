@@ -1,3 +1,4 @@
+import { GlobeDemo } from "@/app/components/main/GridGlobe";
 import { cn } from "@/lib/utils";
 import Image from "next/image";
 
@@ -65,11 +66,42 @@ export const BentoGridItem = ({
             />
           )}
         </div>
-      </div>
-      <div className="group-hover/bento:translate-x-2 transition duration-200">
-        <div className="font-sans font-bold  mb-2 mt-2 text-white">{title}</div>
-        <div className="font-sans font-normal text-white text-xs">
-          {description}
+        <div
+          className={cn(
+            titleClassName,
+            "group-hover/bento:translate-x-2 transition duration-200 relative md:h-full flex flex-col py-5 lg:p-5"
+          )}
+        >
+          {/* add text-3xl max-w-96 , remove text-neutral-600 dark:text-neutral-300*/}
+          {/* remove mb-2 mt-2 */}
+          <div
+            className={`font-sans text-lg lg:text-3xl max-w-96 font-bold z-10 text-white`}
+          >
+            {title}
+          </div>
+          <div className="text-neutral-400">{description}</div>
+
+          {/* globe animation */}
+          <div className="flex justify-center lg:items-center items-end w-full h-full">
+            {id === 1 && (
+              <div className="w-full h-full">
+                <GlobeDemo />
+              </div>
+            )}
+          </div>
+        </div>
+        <div
+          className={`absolute right-0 -bottom-5 ${
+            id === 5 && `w-full opacity-80`
+          }`}
+        >
+          {spareImg && (
+            <img
+              src={spareImg}
+              alt={spareImg}
+              className={"object-cover, object-center"}
+            />
+          )}
         </div>
       </div>
     </div>

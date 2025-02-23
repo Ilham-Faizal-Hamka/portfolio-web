@@ -84,7 +84,7 @@ const Contact = () => {
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit,
                 ea!
               </p>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6 ">
                 <Input
                   name="firstname"
                   type="text"
@@ -150,7 +150,7 @@ const Contact = () => {
             </form>
           </div>
           <div className="flex items-center xl:justify-end order-1 xl:order-none mb-8 xl:mb-0">
-            <ul className="flex flex-col gap-10">
+            <ul className="flex flex-col gap-10 ">
               {info.map((item, index) => (
                 <li
                   key={index}
